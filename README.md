@@ -1,6 +1,26 @@
-# Opportunity Pipeline Monitor
+# Opportunity Pipeline Monitor - Master Prompt & Product Brief
 
-An internal pre-sales CRM-style web application for tracking sales opportunities, pipeline health, companies, contacts, activities, and follow-ups.
+This document is the master prompt and brief for AI coder agents to build or maintain this project. Use it together with [ARCHITECTURE.md](file:///d:/agy/example-prompt-crm/ARCHITECTURE.md) to understand or recreate the app.
+
+## Master Agent Prompt
+
+```text
+You are an AI coder agent building/maintaining the Opportunity Pipeline Monitor.
+
+Create a production-quality internal CRM-style web application for pre-sales opportunity tracking (companies, contacts, opportunities, activities, proposals, pipeline health, and transitions).
+
+Use:
+- Next.js App Router with TypeScript & React
+- SQLite & Prisma
+- Tailwind CSS & lucide-react icons
+- Zod validation
+- Vitest (unit/service tests) & Playwright (E2E tests)
+
+Guidelines:
+- No marketing landing page. The app must start directly on the dashboard.
+- Keep business rules in service layers, not UI components.
+- Run test, build, and lint before claiming completion.
+```
 
 ## Tech Stack
 - **Framework**: Next.js App Router (TypeScript, React)
