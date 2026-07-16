@@ -1,6 +1,6 @@
 # Opportunity Pipeline Monitor - Master Prompt & Product Brief
 
-This document is the master prompt and brief for AI coder agents to build or maintain this project. Use it together with [ARCHITECTURE.md](file:///d:/agy/example-prompt-crm/ARCHITECTURE.md) to understand or recreate the app.
+This document is the master prompt and brief for AI coder agents to build or maintain this project. Use it together with ARCHITECTURE.md to understand or recreate the app.
 
 ## Master Agent Prompt
 
